@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" lang="es-mx" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Portafolio Diego Aldair Aranda Zavaleta</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <script src="Js.js"></script>
+    <header>
+        <div id="nameH"><p>Diego Aldair Aranda Zavaleta <b>Ing. en sistemas</b></p></div>
+        <div id="indice">
+            <ul>
+                <li><a href="#sobreMi">Sobre mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#pasatiempos">Pasatiempos</a></li>
+                <li><a href="#formacion">Formación</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+        <div id="hora">Esta es la hora actual</div>
+    </header>
+    <main>
+        <div id="sobreMi">
+            <div id="contentMi">
+                <h1 class="titulo">Sobre mí</h1>
+                <p>Soy Diego Aldair Aranda Zavaleta.<br />Futuro ingeníero en sistemas computaciones, actualmente no ejerzo, pero estoy preparandome para hacerlo a futuro, me gustaría especializarme en el apartado de FrontEnd</p>
+            </div>
+            <div>
+                <img src="imagenes/imgjeff.jpg" />
+            </div>
+        </div>
+        <div id="habilidades">
+            <h1 class="titulo">Habilidades</h1>
+            <div id="subSkill">
+                <div class="skills">
+                    <img src="imagenes/html5.svg" />
+                    <p>HTML</p>
+                </div>
+                <div class="skills">
+                    <img src="imagenes/css.svg" />
+                    <p>CSS</p>
+                </div>
+                <div class="skills">
+                    <img src="imagenes/javascript.svg" />
+                    <p>JavaScript</p>
+                </div>
+                <div class="skills">
+                    <img src="imagenes/c++.svg" />
+                    <p>C++</p>
+                </div>
+                <div class="skills">
+                    <img src="imagenes/illustrator.svg" />
+                    <p>Adobe Illustrator</p>
+                </div>
+                <div class="skills">
+                    <img src="imagenes/photoshop.svg" />
+                    <p>Adobe Photoshop</p>
+                </div>
+                <div class="skills">
+                    <img src="imagenes/windows.svg" />
+                    <p>Técnico computacional</p>
+                </div>
+            </div>
+        </div>
+        <div id="pasatiempos">
+            <h1 class="titulo">Pasatiempos</h1>
+            <div id="subPas">
+                <div class="hobby">
+                    <img src="imagenes/tortaspiolin.png" />
+                    <p>Comer tortas</p>
+                </div>
+                <div class="hobby">
+                    <img src="imagenes/minecraft-1.svg" />
+                    <p>Jugar Minecraft</p>
+                </div>
+                <div class="hobby">
+                    <img src="imagenes/librovaquero.jpg" />
+                    <p>Lector de fina literatura</p>
+                </div>
+                <div class="hobby">
+                    <img src="imagenes/peluche.png" />
+                    <p>Ver obras de culto de la humanidad</p>
+                </div>
+            </div>
+        </div>
+        <div id="formacion">
+            <h1 class="titulo">Formación</h1>
+            <div id="subForm">
+                <div class="forma">
+                    <img src="imagenes/ugmlogo.jpg" />
+                    <div class="textForm">
+                        <p>Ingeniería en sistemas computacionales</p>
+                        <p>Universidad del golfo de México</p>
+                    </div>
+                </div>
+                <div class="forma">
+                    <img src="imagenes/aluralogo.png" />
+                    <div class="textForm">
+                        <p>Desarrollo Web</p>
+                        <p>Alura</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="proyectos">
+            <div class="subPro">
+                <div class="proForm">
+                    <iframe src="https://diegoaaranda.github.io/EncriptadorOne/" frameborder="0"></iframe>
+                </div>
+                <div class="proForm">
+                    <div>
+                        <p>Proyecto Encriptador Alura</p>
+                        <p>Challenge</p>
+                    </div>
+                    <div>
+                        <a href="https://github.com/DiegoAAranda/EncriptadorOne"><button>Repositorio</button></a>
+                        <a href="https://diegoaaranda.github.io/EncriptadorOne/"><button>Github Page</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="sectionFoot">
+            <h1>Acerca de</h1>
+            <p>Este sitio Web fue creado por Diego Aldair Aranda Zavaleta durante el 2024</p><br>
+            <p>Diego Aldair Aranda Zavaleta es un estudiante de Alura</p><br>
+            <p>Las fuentes utilizadas son Oswald y Montserrat</p>
+        </div>
+        <div class="sectionFoot" id="contacto">
+            <h1>Contacto</h1>
+            <form action="mailto:diego0aranda2020@gmail.com" method="post" enctype="text/plain">
+                <input type="text" name="nombre" placeholder="Nombre" required><br>
+                <input type="email" name="email" placeholder="Correo electrónico" required><br>
+                <input type="text" name="subject" placeholder="Asunto" required><br>
+                <textarea name="mensaje" placeholder="Mensaje" required></textarea><br>
+                <input type="submit" id="enviar" value="Enviar">
+            </form>
+        </div>
+    </footer>
+</body>
+</html>
