@@ -1,4 +1,4 @@
-﻿body {
+body {
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -13,7 +13,7 @@ header {
     align-items: end;
     background: #dc968b;
     color: #2b202e;
-    font-size: calc(2vw - 15px);
+    font-size: 16px;
     font-weight: 500;
 }
 
@@ -28,7 +28,7 @@ header div{
 
 #nameH {
     font-weight: 600;
-    font-size: calc(1.8vw - 7px);
+    font-size: 24px;
 }
 
 #nameH b{
@@ -55,7 +55,7 @@ main {
 }
 
 .titulo{
-    font-size: calc(4vw - 10px);
+    font-size: 48px;
     font-family: Oswald;
     font-weight: 600;
 }
@@ -88,7 +88,7 @@ main {
 }
 
 #sobreMi p{
-    font-size: calc(2vw - 5px);
+    font-size: 20px;
     font-family: Montserrat;
     font-weight: 600;
 }
@@ -225,7 +225,7 @@ main {
     margin: 20px 0;
     background: #b73270;
     padding: 20px;
-    font-size: calc(3vh - 5px);
+    font-size: 20px;
     color: #ffffff;
     font-family: Oswald;
     word-wrap: break-word;
@@ -265,7 +265,7 @@ main {
 }
 
 .proForm p{
-    font-size: calc(2vw - 5px);
+    font-size: 16px;
     font-weight: 600;
     font-family: Oswald;
 }
@@ -276,7 +276,7 @@ main {
 }
 
 .proForm button{
-    font-size: calc(2vw - 10px);
+    font-size: 16px;
     font-weight: 600;
     font-family: Oswald;
     color: #ffffff;
@@ -321,7 +321,7 @@ footer {
 }
 
 .sectionFoot h1{
-    font-size: calc(3vw - 10px);
+    font-size: 32px;
     margin: 10px 0;
 }
 
@@ -357,6 +357,10 @@ footer {
         display: none;
     }
 
+    #nameH {
+        font-size: 24px;
+    }
+
     #sobreMi img{
         width: 150px;
         height: 150px;
@@ -372,7 +376,7 @@ footer {
     }
 
     .proForm button{
-        font-size: calc(3vw - 10px);
+        font-size: 16px;
     }
 
     .proForm p:nth-child(2){
@@ -400,8 +404,8 @@ footer {
         display: none;
     }
 
-    .titulo{
-        font-size: calc(6vw - 10px);
+    .titulo {
+        font-size: 24px;
     }
 
     #sobreMi img {
