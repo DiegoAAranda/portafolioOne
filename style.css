@@ -351,7 +351,7 @@ footer {
     resize: none;
 }
 
-@media (max-width: 250px){
+@media (max-width: 290px){
     #contacto{
         display: none;
     }
@@ -371,9 +371,9 @@ footer {
         font-size: 24px;
     }
 
-    #sobreMi img{
-        width: 100px;
-        height: 100px;
+    #sobreMi div img{
+        width: 150px;
+        height: 150px;
     }
 
     .skills{
@@ -444,7 +444,7 @@ footer {
         font-size: 24px;
     }
 
-    #sobreMi img {
+    #sobreMi div img {
         width: 240px;
         height: 240px;
     }
