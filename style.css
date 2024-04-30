@@ -73,7 +73,6 @@ main {
 
 #contentMi{
     width: 800px;
-    text-align: justify;
 }
 
 #sobreMi h1{
@@ -88,6 +87,7 @@ main {
 }
 
 #sobreMi p{
+    justify-content: space-around;
     font-size: 20px;
     font-family: Montserrat;
     font-weight: 600;
@@ -351,6 +351,16 @@ footer {
     resize: none;
 }
 
+@media (max-width: 250px){
+    #contacto{
+        display: none;
+    }
+
+    #sobreMi img {
+        display: none;
+    }
+}
+
 
 @media (max-width: 425px) {
     #indice {
@@ -366,6 +376,28 @@ footer {
         height: 150px;
     }
 
+    .skills{
+        padding: 15px;
+        margin: 5px;
+        border-width: 3px;
+    }
+
+    .skills p{
+        font-size: 6px;
+        font-weight: 500;
+    }
+
+    .hobby{
+        padding: 15px;
+        margin: 5px;
+        border-width: 3px;
+    }
+
+    .hobby p{
+        font-size: 6px;
+        font-weight: 500;
+    }
+
     .proForm {
         margin: 0;
         padding: 0;
@@ -376,7 +408,7 @@ footer {
     }
 
     .proForm button{
-        font-size: 16px;
+        font-size: 12px;
     }
 
     .proForm p:nth-child(2){
@@ -396,6 +428,10 @@ footer {
     .forma img{
         width: 200px;
         height: 200px;
+    }
+
+    #contacto textarea{
+        width: 200px;
     }
 }
 
